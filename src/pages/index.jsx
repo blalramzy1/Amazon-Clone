@@ -3,6 +3,7 @@ import ProductFeed from '@/components/ProductFeed'
 import Head from 'next/head'
 import Header from '@/components/Header'
 
+
 const Index = ({ products }) => {
   // console.log(products)
   return (

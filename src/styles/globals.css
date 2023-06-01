@@ -8,7 +8,10 @@
     .link {
         @apply cursor-pointer hover:underline
     }
-    button {
-        @apply p-2 text-xs sm:text-sm bg-gradient-to-b from-yellow-200 to-yellow-400 border border-yellow-300 rounded-sm focus:outline-none focus:ring-yellow-500 active:from-yellow-600
+    .button {
+        @apply p-2 text-xs sm:text-sm bg-gradient-to-b from-yellow-200 to-yellow-400 border border-yellow-300 rounded-sm 
     } 
+    .buttonCheckout {
+        @apply from-gray-300 to-gray-500 border-gray-200 text-gray-300
+    }
 }

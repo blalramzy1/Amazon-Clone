@@ -1,5 +1,12 @@
 module.exports = {
   mode: "jit",
+  darkMode: 'media',
+  darkMode: false,
+  variants: {
+    extend: {
+      padding: ['hover'],
+    }
+  },
   purge: [
     "./src/pages/**/*.{js,ts,jsx,tsx}",
     "./src/components/**/*.{js,ts,jsx,tsx}",
@@ -18,5 +25,4 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [require("@tailwindcss/line-clamp")],
 };
